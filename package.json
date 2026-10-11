@@ -1,0 +1,13 @@
+{
+  "name": "russian-name-extractor",
+  "version": "0.1.0",
+  "description": "Dependency-free Russian name extraction for Next.js and JavaScript",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": { ".": { "types": "./src/index.d.ts", "import": "./src/index.js", "default": "./src/index.js" } },
+  "files": ["src", "README.md", "NAMES.md", "examples"],
+  "sideEffects": false,
+  "scripts": { "test": "node --test", "check": "node --check src/index.js" },
+  "engines": { "node": ">=18" }
+}
